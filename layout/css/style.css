@@ -1,0 +1,52 @@
+body {
+  background-image: url("../images/bg.jpg");
+  margin: 0;
+}
+.countiner {
+  width: 960px;
+  margin: 0 auto;
+}
+header {
+  background-image: url("../images/bg-header.jpg");
+  height: 100px;
+  width: 100%;
+  padding: 0px;
+  position: fixed;
+  z-index: 50;
+}
+.imgs {
+  float: left;
+  margin-bottom: 20px;
+}
+nav {
+  float: right;
+  text-align: right;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+  margin-top: 20px;
+}
+a {
+  color: #b5c1ad;
+  text-decoration: none;
+}
+a:hover {
+  color: aqua;
+}
+.logo {
+  margin-bottom: 20px;
+}
+.count {
+  background-image: url("../images/bg-triangle.png");
+  background-repeat: no-repeat;
+  background-position: 0px;
+  width: 960px;
+  margin: 0 auto;
+}
+.intro {
+  float: right;
+  width: 30%;
+}
